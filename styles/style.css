@@ -290,7 +290,7 @@ input {
   background-color: #545050;
 }
 
-.search-form__checkbox-list:hover,
+.search-form__label:hover:not(:has(.search-form__textfield)),
 .button:hover,
 .content__card-link:hover {
   text-decoration: 1px solid underline;
